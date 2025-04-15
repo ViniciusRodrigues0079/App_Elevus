@@ -10,14 +10,15 @@ export const InputRectangle1 = () => {
 
 const box = StyleSheet.create({
     rectangle: {
-        width: 200,
+        width: 340,
         height: 50,
         borderColor: '#0075C4',
         borderRadius: 15,
         borderLeftWidth: 2,
         borderRightWidth: 2,
         borderTopWidth: 2,
-        borderBottomWidth: 2
+        borderBottomWidth: 2,
+        marginLeft: 36
     }
 
 })
