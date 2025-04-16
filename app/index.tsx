@@ -51,7 +51,7 @@ export default function Index() {
       <Text>
         <View style={{flexDirection:'row', marginTop: 18}}>
           <TouchableOpacity style={{height: 15, width: 15, borderColor: '#0075C4', marginLeft: 36, borderWidth: 1}}></TouchableOpacity>
-          <Text style={{color:'#FFFFFF', marginLeft: 9, fontSize: 12, fontWeight: 'semibold', height: 14, width: 136}}>Mantenha-me conectado</Text>
+          <Text style={{color:'#FFFFFF', marginLeft: 9, fontSize: 12, fontWeight: 'semibold', fontFamily: 'Khula', height: 14, width: 136}}>Mantenha-me conectado</Text>
         </View>
       </Text>
       <InputSignInButton/>
