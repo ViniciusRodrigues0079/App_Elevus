@@ -1,9 +1,9 @@
 import { StyleSheet, TouchableOpacity, Text } from "react-native"
 
-export const InputSignInButton = ({onPress}) => {
+export const InputSignInButton = () => {
     return (
         <>
-            <TouchableOpacity onPress={onPress} style={stylebutton.signin} activeOpacity={0.8}>
+            <TouchableOpacity style={stylebutton.signin} activeOpacity={0.8}>
                 <Text style={stylebutton.signintext}>Entrar</Text>
             </TouchableOpacity>
         </>
@@ -15,7 +15,9 @@ const stylebutton = StyleSheet.create({
         width: 282,
         height: 49,
         backgroundColor: '#0075C4',
-        borderRadius: 12
+        borderRadius: 12,
+        marginLeft: 65,
+        marginTop: 66
     },
     signintext: {
         color: '#FFFFFF',
